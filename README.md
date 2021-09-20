@@ -8,4 +8,9 @@ After Airflow webserver is running, open Airflow in your local browser and go to
 localhost:8080
 ```
 with username: `admin`
-and password: `admin1234`
+and password: `admin1234`  
+Set Variable in Airflow by going to Admin > Variable with:  
+```
+Key: data_dev_connection
+Value: "postgresql+psycopg2://airflow:airflow@postgres/airflow"
+```
