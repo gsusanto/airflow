@@ -9,7 +9,8 @@ localhost:8080
 ```
 with username: `admin`
 and password: `admin1234`  
-Set Variable in Airflow by going to Admin > Variable with:  
+#### Set Airflow Variable
+Set Variable for connection to Postgresql database in Airflow by going to Admin > Variable with:  
 ```
 Key: data_dev_connection
 Value: "postgresql+psycopg2://airflow:airflow@postgres/airflow"
